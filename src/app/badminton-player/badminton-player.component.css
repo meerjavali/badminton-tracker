@@ -3,3 +3,24 @@
     justify-content: center;
     align-items: center;
 }
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+td{
+    padding: 5px;
+}
+
+.left{
+    padding-right:5%;
+}
+table{
+    width: 100%;
+}
