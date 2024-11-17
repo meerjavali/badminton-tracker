@@ -91,5 +91,11 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+</div>
+<div class="daily" *ngIf="flag"> 
+  <div>to update daily game records
+    <button  (click)="onClick()"> click here</button>
   </div>
+</div>
+<app-badminton-form *ngIf="!flag" ></app-badminton-form>
   

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./badminton-player.component.css']
 })
 export class BadmintonPlayerComponent {
+  flag=true;
+  onClick(){
+    this.flag=false;
+  }
 
 }

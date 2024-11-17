@@ -1,0 +1,14 @@
+.daily{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap:20px;
+}
+.container .row{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
