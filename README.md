@@ -11,3 +11,7 @@ development as of 15/11/2024
 worked and created profile pages. css and ui bug fixes.
 deployed working application using fire base made application available at https://badmaxton-d603d.web.app/
 
+development as of 17/11/2024
+worked and created a component [badminiton-form] for daily game records page.
+deployed working application using fire base made application available at https://badmaxton-d603d.web.app/
+
