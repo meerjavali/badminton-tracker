@@ -15,3 +15,8 @@ development as of 17/11/2024
 worked and created a component [badminiton-form] for daily game records page.
 deployed working application using fire base made application available at https://badmaxton-d603d.web.app/
 
+development as of 19/11/2024
+storing the daily game form values in firebase realtime db. in json format.
+added basic auth only so that kv and meer can submit the form
+deployed working application using fire base made application available at https://badmaxton-d603d.web.app/
+
