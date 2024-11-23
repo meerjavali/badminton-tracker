@@ -6,11 +6,11 @@
             <img src="../../assets/images/MEER.jpg"  height="200" class="card-img-top" alt="...">
             <div class="card-body">
               <h3 class="card-title">MEERJA</h3>
-              <h5>(total matches refers to only played against KV as of 19/11/2024)</h5>
+              <h5>(total matches refers to only played against KV as of 23/11/2024)</h5>
               <table>
                 <tr>
                   <td class="left">Total no of Matches</td>
-                  <td>343</td>
+                  <td>345</td>
                 </tr>
                 <tr>
                   <td class="left">Total no of Wins</td>
@@ -33,19 +33,19 @@
             <img src="../../assets/images/KV.jpg" height="200" class="card-img-top" alt="image">
             <div class="card-body">
               <h3 class="card-title">KV</h3>
-              <h5>(total matches refers to only played against MEERJA as of 19/11/2024)</h5>
+              <h5>(total matches refers to only played against MEERJA as of 23/11/2024)</h5>
               <table>
                 <tr>
                   <td class="left">Total no of Matches</td>
-                  <td >343</td>
+                  <td >345</td>
                 </tr>
                 <tr>
                   <td class="left">Total no of Wins</td>
-                  <td>168</td>
+                  <td>170</td>
                 </tr>
                 <tr>
                   <td class="left">Total Tournment wins</td>
-                  <td>17</td>
+                  <td>18</td>
                 </tr>
                 <tr>
                   <td class="left">Rank</td>
@@ -97,5 +97,11 @@
     <button  (click)="onClick()"> click here</button>
   </div>
 </div>
+<div class="daily" *ngIf="dailyStats"> 
+  <div>To view daily detail stats
+    <button  (click)="dailyStat()"> click here</button>
+  </div>
+</div>
 <app-badminton-form *ngIf="!flag" ></app-badminton-form>
+<app-daily-game-record *ngIf="!dailyStats"></app-daily-game-record>
   

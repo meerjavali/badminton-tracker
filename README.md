@@ -20,3 +20,9 @@ storing the daily game form values in firebase realtime db. in json format.
 added basic auth only so that kv and meer can submit the form
 deployed working application using fire base made application available at https://badmaxton-d603d.web.app/
 
+development as of 23/11/2024
+created a component for daily stats record to display the daily game stats in table format.
+added few dummy values to represent the table in desktop mode and mobile mode.
+deployed working application using fire base made application available at https://badmaxton-d603d.web.app/
+
+

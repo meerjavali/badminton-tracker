@@ -7,8 +7,12 @@ import { Component } from '@angular/core';
 })
 export class BadmintonPlayerComponent {
   flag=true;
+  dailyStats=true;
   onClick(){
     this.flag=false;
+  }
+  dailyStat(){
+    this.dailyStats = false;
   }
 
 }
