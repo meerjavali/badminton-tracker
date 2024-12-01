@@ -29,5 +29,10 @@ added few dummy values to represent the table in desktop mode and mobile mode.
 deployed working application using fire base made application available at https://badmaxton-d603d.web.app/
 ![alt text](https://github.com/meerjavali/badMaxton-Images/blob/main/23-11-2024.png)
 ![alt text](https://github.com/meerjavali/badMaxton-Images/blob/main/23-11-2024-2.png)
+development as of 01/12/2024
+integrated badminton form data with daily stat component using our firebase API.
+separated total games before 23/11/2024 played between MEER and KV as peer profile
+updated main carousel with data after 23/11/2024 for all 3 players.
+deployed working application using fire base made application available at https://badmaxton-d603d.web.app/
 
 
