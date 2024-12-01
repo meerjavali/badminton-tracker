@@ -12,15 +12,16 @@
             </tr>
             </thead>
             <tbody>
-            <tr class="col-xs-12 col-md-8">
-                <td>2024-11-23</td>
-                <td>Meer</td>
-                <td>KV</td>
-                <td>18</td>
-                <td>21</td>
-                <td>KV</td>
+            <tr class="col-xs-12 col-md-8" *ngFor="let record of game">
+                <td>{{record.date}}</td>
+                <td>{{record.player1name}}</td>
+                <td>{{record.player2name}}</td>
+                <td>{{record.player1points}}</td>
+                <td>{{record.player2points}}</td>
+                <td *ngIf="record.player1points>record.player2points">{{record.player1name}}</td>
+                <td *ngIf="record.player1points<record.player2points">{{record.player2name}}</td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td>2024-11-23</td>
                 <td>KV</td>
                 <td>Asif</td>
@@ -43,7 +44,7 @@
                 <td>21</td>
                 <td>17</td>
                 <td>KV</td>
-            </tr>
+            </tr> -->
             <!-- Add more rows as needed -->
             </tbody>
         </table>

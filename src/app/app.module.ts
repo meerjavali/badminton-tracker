@@ -9,6 +9,7 @@ import { BadmintonFormComponent } from './badminton-form/badminton-form.componen
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import { DailyGameRecordComponent } from './daily-game-record/daily-game-record.component';
+import { ProfilePeerComponent } from './profile-peer/profile-peer.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { DailyGameRecordComponent } from './daily-game-record/daily-game-record.
     AppComponent,
     BadmintonPlayerComponent,
     BadmintonFormComponent,
-    DailyGameRecordComponent
+    DailyGameRecordComponent,
+    ProfilePeerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,26 @@
-import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-daily-game-record',
   templateUrl: './daily-game-record.component.html',
   styleUrls: ['./daily-game-record.component.css']
 })
-export class DailyGameRecordComponent {
+export class DailyGameRecordComponent implements OnInit{
+
+  game=[];
+  ngOnInit(): void {
+    this.http.get("https://badmaxton-d603d-default-rtdb.firebaseio.com/dailyTrack.json").subscribe(res=>{
+      const data =res;
+      this.game = Object.entries(data).map(([key, value]) => ({
+        match: key, 
+        ...value    
+    }));
+    console.log(this.game);
+      
+    });
+    
+  }
+  constructor(private http:HttpClient){}
 
 }

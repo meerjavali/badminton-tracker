@@ -1,24 +1,24 @@
 <div class="top"> </div>
-<div id="carouselExample" class="carousel slide" *ngIf="peer">
+<div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item   active">
         <div class="card" style="width: 18rem;">
             <img src="../../assets/images/MEER.jpg"  height="200" class="card-img-top" alt="...">
             <div class="card-body">
               <h3 class="card-title">MEERJA</h3>
-              <h5>(matches were tracking from 23/11/2024 for this profile against  KV and Asif)</h5>
+              <h5>(total matches refers to only played against KV)</h5>
               <table>
                 <tr>
                   <td class="left">Total no of Matches</td>
-                  <td>11</td>
+                  <td>350</td>
                 </tr>
                 <tr>
                   <td class="left">Total no of Wins</td>
-                  <td>8</td>
+                  <td>179</td>
                 </tr>
                 <tr>
                   <td class="left">Total Tournment wins</td>
-                  <td>02</td>
+                  <td>21</td>
                 </tr>
                 <tr>
                   <td class="left">Rank</td>
@@ -33,50 +33,23 @@
             <img src="../../assets/images/KV.jpg" height="200" class="card-img-top" alt="image">
             <div class="card-body">
               <h3 class="card-title">KV</h3>
-              <h5>(matches were tracking from 23/11/2024 for this profile against  Meer and Asif)</h5>
+              <h5>(total matches refers to only played against MEERJA)</h5>
               <table>
                 <tr>
                   <td class="left">Total no of Matches</td>
-                  <td >12</td>
+                  <td >350</td>
                 </tr>
                 <tr>
                   <td class="left">Total no of Wins</td>
-                  <td>08</td>
+                  <td>171</td>
                 </tr>
                 <tr>
-                  <td class="left">Total Tournment wins </td>
-                  <td>01</td>
+                  <td class="left">Total Tournment wins</td>
+                  <td>18</td>
                 </tr>
                 <tr>
                   <td class="left">Rank</td>
                   <td>2</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-      </div>
-      <div class="carousel-item ">
-        <div class="card" style="width: 18rem;">
-            <img src="../../assets/images/ASIF.jpg" height="200" class="card-img-top" alt="image">
-            <div class="card-body">
-              <h3 class="card-title">ASIF</h3>
-              <h5>(matches were tracking from 23/11/2024 for this profile against Meer and KV)</h5>
-              <table>
-                <tr>
-                  <td class="left">Total no of Matches</td>
-                  <td>09</td>
-                </tr>
-                <tr>
-                  <td class="left">Total no of Wins</td>
-                  <td>00</td>
-                </tr>
-                <tr>
-                  <td class="left">Total Tournment wins</td>
-                  <td>00</td>
-                </tr>
-                <tr>
-                  <td class="left">Rank</td>
-                  <td>03</td>
                 </tr>
               </table>
             </div>
@@ -92,22 +65,3 @@
       <span class="visually-hidden">Next</span>
     </button>
 </div>
-<app-profile-peer *ngIf="!peer"></app-profile-peer>
-<div class="daily" *ngIf="flag"> 
-  <div>to view Meer vs KV stats please
-    <button  (click)="peerStats()"> click here</button>
-  </div>
-</div>
-<div class="daily" *ngIf="flag"> 
-  <div>to update daily game records
-    <button  (click)="onClick()"> click here</button>
-  </div>
-</div>
-<div class="daily" *ngIf="dailyStats"> 
-  <div>To view daily detail stats
-    <button  (click)="dailyStat()"> click here</button>
-  </div>
-</div>
-<app-badminton-form *ngIf="!flag" ></app-badminton-form>
-<app-daily-game-record *ngIf="!dailyStats"></app-daily-game-record>
-  

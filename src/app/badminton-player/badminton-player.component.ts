@@ -8,11 +8,15 @@ import { Component } from '@angular/core';
 export class BadmintonPlayerComponent {
   flag=true;
   dailyStats=true;
+  peer=true;
   onClick(){
     this.flag=false;
   }
   dailyStat(){
     this.dailyStats = false;
+  }
+  peerStats(){
+    this.peer=false;
   }
 
 }

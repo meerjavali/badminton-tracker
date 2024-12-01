@@ -1,0 +1,29 @@
+.carousel-item.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    margin-bottom: 10px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+td{
+    padding: 5px;
+}
+
+.left{
+    padding-right:5%;
+}
+table{
+    width: 100%;
+}
