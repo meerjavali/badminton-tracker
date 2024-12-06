@@ -35,7 +35,7 @@ separated total games before 23/11/2024 played between MEER and KV as peer profi
 updated main carousel with data after 23/11/2024 for all 3 players.
 deployed working application using fire base made application available at https://badmaxton-d603d.web.app/
 
-*development as of 02/12/2024
+*development as of 03/12/2024
     Just updated static data of daily games at main carousel and peer carousel. changed web theme. soon auto update of carousel 
 will be done using api data.
 deployed working application using fire base made application available at https://badmaxton-d603d.web.app/

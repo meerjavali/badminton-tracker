@@ -1,6 +1,6 @@
-<div class="top" *ngIf="peer" > <h1>Badminton Records***</h1></div>
-<div class="top" *ngIf="!peer"> <h1>Meer vs KV stats </h1></div>
-<div id="carouselExample" class="carousel slide" *ngIf="peer">
+<div class="top"> <h1>Badminton Records***</h1></div>
+
+<div id="carouselExample" class="carousel slide" >
     <div class="carousel-inner">
       <div class="carousel-item   active">
         <div class="card" style="width: 18rem;">
@@ -11,11 +11,11 @@
               <table>
                 <tr>
                   <td class="left">Total no of Matches</td>
-                  <td>23</td>
+                  <td>29</td>
                 </tr>
                 <tr>
                   <td class="left">Total no of Wins</td>
-                  <td>13</td>
+                  <td>17</td>
                 </tr>
                 <tr>
                   <td class="left">Total Tournment wins</td>
@@ -23,7 +23,7 @@
                 </tr>
                 <tr>
                   <td class="left">Rank</td>
-                  <td>2</td>
+                  <td>1</td>
                 </tr>
               </table>
             </div>
@@ -38,11 +38,11 @@
               <table>
                 <tr>
                   <td class="left">Total no of Matches</td>
-                  <td >24</td>
+                  <td >30</td>
                 </tr>
                 <tr>
                   <td class="left">Total no of Wins</td>
-                  <td>15</td>
+                  <td>17</td>
                 </tr>
                 <tr>
                   <td class="left">Total Tournment wins </td>
@@ -93,22 +93,20 @@
       <span class="visually-hidden">Next</span>
     </button>
 </div>
-<app-profile-peer *ngIf="!peer"></app-profile-peer>
-<div class="daily" *ngIf="flag"> 
+<div class="daily"> 
   <div>to view Meer vs KV stats please
     <button  (click)="peerStats()"> click here</button>
   </div>
 </div>
-<div class="daily" *ngIf="flag"> 
+<div class="daily" > 
   <div>to update daily game records
-    <button  (click)="onClick()"> click here</button>
+    <button  (click)="updateGame()"> click here</button>
   </div>
 </div>
-<div class="daily" *ngIf="dailyStats"> 
+<div class="daily" > 
   <div>To view daily detail stats
     <button  (click)="dailyStat()"> click here</button>
   </div>
 </div>
-<app-badminton-form *ngIf="!flag" ></app-badminton-form>
-<app-daily-game-record *ngIf="!dailyStats"></app-daily-game-record>
+
   

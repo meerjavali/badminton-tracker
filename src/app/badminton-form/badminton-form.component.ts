@@ -1,6 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-badminton-form',
@@ -10,7 +11,7 @@ import { HttpClient } from '@angular/common/http';
 export class BadmintonFormComponent {
   @ViewChild('f')  signupForm: NgForm;
 
-  constructor(private http:HttpClient){}
+  constructor(private http:HttpClient,private route:Router){}
   onSubmit(){
     if(this.signupForm.value.submittedBY == "kv" || this.signupForm.value.submittedBY == "meer"){
       this.http.post("https://badmaxton-d603d-default-rtdb.firebaseio.com/dailyTrack.json", this.signupForm.value).subscribe(res=>{
@@ -23,6 +24,9 @@ export class BadmintonFormComponent {
     this.signupForm.reset();
    }
   
+  }
+  back(){
+    this.route.navigate(['/']);
   }
 
 }

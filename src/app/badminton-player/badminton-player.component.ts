@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-badminton-player',
@@ -6,17 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./badminton-player.component.css']
 })
 export class BadmintonPlayerComponent {
-  flag=true;
-  dailyStats=true;
-  peer=true;
-  onClick(){
-    this.flag=false;
+ 
+  constructor(private route:Router){}
+  updateGame(){
+    this.route.navigate(["/updateGame"]);
   }
   dailyStat(){
-    this.dailyStats = false;
+    this.route.navigate(["/daily-Stats"]);
   }
   peerStats(){
-    this.peer=false;
+    this.route.navigate(["/meer_Vs_kv"]);
   }
 
 }

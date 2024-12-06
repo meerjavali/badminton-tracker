@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-daily-game-record',
@@ -21,6 +22,9 @@ export class DailyGameRecordComponent implements OnInit{
     });
     
   }
-  constructor(private http:HttpClient){}
+  constructor(private http:HttpClient, private route:Router){}
+  back(){
+    this.route.navigate(['/']);
+  }
 
 }

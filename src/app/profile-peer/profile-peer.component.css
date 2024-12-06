@@ -27,3 +27,15 @@ td{
 table{
     width: 100%;
 }
+.top{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+}
+.buttonStyle{
+    background-color: transparent;
+    color: blue;
+    border: transparent;
+    text-decoration: underline;
+}

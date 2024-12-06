@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-profile-peer',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./profile-peer.component.css']
 })
 export class ProfilePeerComponent {
-
+  constructor(private route:Router){}
+  back(){
+    this.route.navigate(['/']);
+  }
 }

@@ -10,8 +10,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import { DailyGameRecordComponent } from './daily-game-record/daily-game-record.component';
 import { ProfilePeerComponent } from './profile-peer/profile-peer.component';
+import { Route, RouterModule } from '@angular/router';
 
-
+const routes:Route[]=[
+  {path:'',component:BadmintonPlayerComponent},
+  {path:'meer_Vs_kv', component:ProfilePeerComponent},
+  {path:'daily-Stats', component:DailyGameRecordComponent},
+  {path:'updateGame',component:BadmintonFormComponent}
+]
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +31,8 @@ import { ProfilePeerComponent } from './profile-peer/profile-peer.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
