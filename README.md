@@ -42,6 +42,15 @@ deployed working application using fire base made application available at https
 will be done using api data.
 deployed working application using fire base made application available at https://badmaxton-d603d.web.app/
 
+*development as of 06/12/2024
+    Just updated static data of daily games at main carousel and peer carousel. created separated route paths and programatically navigating between pages. deployed working application using fire base made application available at https://badmaxton-d603d.web.app/
+![alt text](https://github.com/meerjavali/badMaxton-Images/blob/main/06-12-2024.png)
+![alt text](https://github.com/meerjavali/badMaxton-Images/blob/main/06-12-2024-2.png)
+![alt text](https://github.com/meerjavali/badMaxton-Images/blob/main/06-12-2024-3.png)
+![alt text](https://github.com/meerjavali/badMaxton-Images/blob/main/06-12-2024-4.png)
+
+
+
 
 
 
