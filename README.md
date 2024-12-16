@@ -49,7 +49,10 @@ will be done using api data.
 ![alt text](https://github.com/meerjavali/badMaxton-Images/blob/main/06-12-2024-4.png)
 
 *development as of 15/12/2024
-    Just updated static data of daily games at main carousel and peer carousel. deployed working application using fire base made application available at https://badmaxton-d603d.web.app/ 
+    Just updated static data of daily games at main carousel and peer carousel.
+
+*development as of 16/12/2024
+    Just updated the application functionality so that carousel data get updated dynamically. written some worst code but it works in future i will try to minimize the effort. deployed working application using fire base made application available at https://badmaxton-d603d.web.app/  
 
 
 
