@@ -17,7 +17,6 @@ table {
   tr:nth-child(odd) {
     background-color: #f4f4f4;
   }
-
   @media screen and (max-width: 992px){
     
      table{

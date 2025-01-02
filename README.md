@@ -52,8 +52,13 @@ will be done using api data.
     Just updated static data of daily games at main carousel and peer carousel.
 
 *development as of 16/12/2024
-    Just updated the application functionality so that carousel data get updated dynamically. written some worst code but it works in future i will try to minimize the effort. deployed working application using fire base made application available at https://badmaxton-d603d.web.app/  
+    Just updated the application functionality so that carousel data get updated dynamically. written some worst code but it works in future i will try to minimize the effort.  
 
+*development as of 02/12/2024
+   updated the theme of the application. added a component to see the latest last game details. hided the main carousel for the look purposes and asif is not available.
+   ![alt text](https://github.com/meerjavali/badMaxton-Images/blob/main/02-01-2025.png)
+
+##deployed working application using fire base made application available at https://badmaxton-d603d.web.app/ 
 
 
 

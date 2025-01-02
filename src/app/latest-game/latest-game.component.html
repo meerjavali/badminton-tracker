@@ -1,0 +1,28 @@
+<div class="top"> <h1>last game details</h1> </div>
+<div class="tableDesign">
+    <div>
+        <table>
+            <thead>
+            <tr class="col-xs-12 col-md-8">
+                <th>Date</th>
+                <th>Player 1</th>
+                <th>Player 2</th>
+                <th>Player 1 Points</th>
+                <th>Player 2 Points</th>
+                <th>Winner</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="col-xs-12 col-md-8" *ngFor="let record of latestGame" >
+                <td>{{record.date}}</td>
+                <td>{{record.player1name}}</td>
+                <td>{{record.player2name}}</td>
+                <td>{{record.player1points}}</td>
+                <td>{{record.player2points}}</td>
+                <td *ngIf="record.player1points>record.player2points">{{record.player1name}}</td>
+                <td *ngIf="record.player1points<record.player2points">{{record.player2name}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

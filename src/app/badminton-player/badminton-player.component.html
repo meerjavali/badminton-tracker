@@ -1,6 +1,6 @@
 <div class="top"> <h1>{{'***Badminton Records***'}}</h1></div>
 
-<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" >
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" hidden="true" >
     <div class="carousel-inner">
       <div class="carousel-item   active">
         <div class="card" style="width: 18rem;">
@@ -92,6 +92,9 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+</div>
+<div>
+  <app-latest-game  [game]="game"></app-latest-game>
 </div>
 <div class="daily"> 
   <div>to view Meer vs KV stats please

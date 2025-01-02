@@ -15,7 +15,6 @@ export class BadmintonFormComponent {
   onSubmit(){
     if(this.signupForm.value.submittedBY == "kv" || this.signupForm.value.submittedBY == "meer"){
       this.http.post("https://badmaxton-d603d-default-rtdb.firebaseio.com/dailyTrack.json", this.signupForm.value).subscribe(res=>{
-        console.log(res);
         this.signupForm.reset();
       });
    }

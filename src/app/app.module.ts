@@ -11,6 +11,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { DailyGameRecordComponent } from './daily-game-record/daily-game-record.component';
 import { ProfilePeerComponent } from './profile-peer/profile-peer.component';
 import { Route, RouterModule } from '@angular/router';
+import { LatestGameComponent } from './latest-game/latest-game.component';
 
 const routes:Route[]=[
   {path:'',component:BadmintonPlayerComponent},
@@ -24,7 +25,8 @@ const routes:Route[]=[
     BadmintonPlayerComponent,
     BadmintonFormComponent,
     DailyGameRecordComponent,
-    ProfilePeerComponent
+    ProfilePeerComponent,
+    LatestGameComponent
   ],
   imports: [
     BrowserModule,

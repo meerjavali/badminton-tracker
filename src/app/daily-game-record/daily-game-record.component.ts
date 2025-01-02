@@ -17,7 +17,6 @@ export class DailyGameRecordComponent implements OnInit{
         match: key, 
         ...value    
     }));
-    console.log(this.game);
       
     });
     

@@ -22,7 +22,6 @@ export class BadmintonPlayerComponent {
         match: key, 
         ...value    
     }));
-    console.log(this.game);
     let meerCount=0;
     let kvCount=0;
     for(let i=0;i<this.game.length;i++){
